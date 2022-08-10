@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Memo</title>
+    <link rel="stylesheet" href="/css/style.css"">
+  </head>
+  <body>
+    <!--header-->
+    <header>
+      <h3>My Memo</h3>
+    </header>
+
+    <!--login section-->
+    <section class="login">
+      <form class="login-form">
+        <input type="text" placeholder="What is your name?" />
+        <button type="submit">Log In</button>
+      </form>
+    </section>
+
+    <!--main section-->
+    <section class="main hidden">
+      <div class="board">
+        <h4></h4>
+        <!--memo list -->
+        <div></div>
+        <button id="board-btn">Create Note</button>
+      </div>
+    </section>
+
+    <!--create note section-->
+    <section class="create hidden">
+      <div class="board">
+        <button id="cancel-create">cancel</button>
+        <!--input-->
+        <form>
+          <input id="note-title" type="text" placeholder="enter the title" />
+          <input
+            id="note-content"
+            type="text"
+            placeholder="enter the content"
+          />
+        </form>
+      </div>
+    </section>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>

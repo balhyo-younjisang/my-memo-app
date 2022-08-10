@@ -1,0 +1,47 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header h3 {
+  color: azure;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+body {
+  background-color: beige;
+}
+
+h3,
+section {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.board {
+  width: 60vw;
+  height: 70vh;
+  background-color: aliceblue;
+  margin: auto;
+}
+
+#board-btn {
+  margin-top: 50vh;
+}
+
+#cancel-create {
+  float: left;
+}
+
+#note-title {
+  width: 50vw;
+}
+
+#note-content {
+  width: 55vw;
+  height: 60vh;
+}
