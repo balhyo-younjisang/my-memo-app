@@ -13,20 +13,20 @@
       <h3>My Memo</h3>
     </header>
 
-    <!--login section-->
+    <!-- login section
     <section class="login">
       <form class="login-form">
         <input type="text" placeholder="What is your name?" />
         <button type="submit">Log In</button>
       </form>
-    </section>
+    </section> -->
 
     <!--main section-->
-    <section class="main hidden">
+    <section class="main">
       <div class="board">
         <h4></h4>
         <!--memo list -->
-        <div></div>
+        <ul id="memos"></ul>
         <button id="board-btn">Create Note</button>
       </div>
     </section>
@@ -35,6 +35,7 @@
     <section class="create hidden">
       <div class="board">
         <button id="cancel-create">cancel</button>
+        <button id="save-create" type="submit">save</button>
         <!--input-->
         <form>
           <input id="note-title" type="text" placeholder="enter the title" />
