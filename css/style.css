@@ -38,10 +38,14 @@ section {
 }
 
 #note-title {
-  width: 50vw;
+  width: 40vw;
 }
 
 #note-content {
   width: 55vw;
   height: 60vh;
+}
+
+#save-create {
+  float: right;
 }
